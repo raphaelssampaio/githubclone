@@ -15,6 +15,7 @@ import {
   AvatarInfo,
   SeeAllHyper,
   Link,
+  GoTo,
 } from '../Main/styles'
 
 export default function Repos(props) {
@@ -64,6 +65,12 @@ export default function Repos(props) {
 
   return (
     <Container>
+      <GoTo icon="home">
+        <Link href="/" style={{ color: 'white' }}>
+          {' '}
+          Home
+        </Link>
+      </GoTo>
       <AvatarContainer>
         <AvatarImage src={avatar} />
         <AvatarInfo>

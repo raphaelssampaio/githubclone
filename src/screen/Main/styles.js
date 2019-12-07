@@ -4,7 +4,7 @@ import { Card, Button } from 'antd'
 export const Container = styled.div``
 
 export const HeaderText = styled.h3`
-  color: royalblue;
+  color: darkslateblue;
 `
 export const CardTitle = styled.h3`
   color: whitesmoke;
@@ -48,7 +48,7 @@ export const AvatarContainer = styled.div`
   display: flex;
   flex-direction: row;
   padding: 10px;
-  border: 1px solid gainsboro;
+  border: 1px solid darkslateblue;
   border-radius: 5px;
 `
 export const AvatarData = styled.p`
@@ -66,7 +66,16 @@ export const SeeAllHyper = styled(Button)`
   width: 150px;
   height: 30px;
 `
+
 export const Link = styled.a`
   text-decoration: none;
   color: black;
+`
+export const GoTo = styled(Button)`
+  font-size: 16px;
+  margin: 5px;
+  border-radius: 5px;
+  height: 30px;
+  background-color: darkslateblue;
+  color: whitesmoke;
 `
